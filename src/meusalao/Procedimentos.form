@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,44,0,0,2,29"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTituloProcedimentos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Procedimentos"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="250" y="20" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="tbProcedimentos">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="60" width="520" height="340"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="TbProcedimentos">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="34">
+                <Column editable="true" title="C&#xf3;digo" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="10"/>
+                  <Data value="11"/>
+                  <Data value="12"/>
+                  <Data value="13"/>
+                  <Data value="14"/>
+                  <Data value="15"/>
+                  <Data value="16"/>
+                  <Data value="17"/>
+                  <Data value="18"/>
+                  <Data value="19"/>
+                  <Data value="20"/>
+                  <Data value="21"/>
+                  <Data value="22"/>
+                  <Data value="23"/>
+                  <Data value="24"/>
+                  <Data value="25"/>
+                  <Data value="26"/>
+                  <Data value="27"/>
+                  <Data value="28"/>
+                  <Data value="29"/>
+                  <Data value="30"/>
+                  <Data value="31"/>
+                  <Data value="32"/>
+                  <Data value="33"/>
+                  <Data value="34"/>
+                </Column>
+                <Column editable="true" title="Procedimentos" type="java.lang.Object">
+                  <Data value="Corte Simples"/>
+                  <Data value="Corte Degrad&#xea;"/>
+                  <Data value="Barba Simples"/>
+                  <Data value="Barba Desenhada"/>
+                  <Data value="Sombrancelhas"/>
+                  <Data value="Penteados Feminino"/>
+                  <Data value="Aplica&#xe7;&#xe3;o de Ampola"/>
+                  <Data value="Botox Capilar"/>
+                  <Data value="Cauteriza&#xe7;&#xe3;o a Frio"/>
+                  <Data value="Celophane"/>
+                  <Data value="Colora&#xe7;&#xe3;o"/>
+                  <Data value="Corte com Gil Madureira"/>
+                  <Data value="Corte Feminino"/>
+                  <Data value="Escova"/>
+                  <Data value="Escova Cati&#xf4;nica"/>
+                  <Data value="Escova Definitiva"/>
+                  <Data value="Escova Inteligente"/>
+                  <Data value="Escova Reconstrutiva"/>
+                  <Data value="Escova Reestruturante"/>
+                  <Data value="Henna"/>
+                  <Data value="Design Sobrancelha"/>
+                  <Data value="Sombrancelha"/>
+                  <Data value="Micropigmenta&#xe7;&#xe3;o Fio a Fio"/>
+                  <Data value="Micropigmenta&#xe7;&#xe3;o Labial"/>
+                  <Data value="Neutraliza&#xe7;&#xe3;o Labial"/>
+                  <Data value="Hidrata&#xe7;&#xe3;o"/>
+                  <Data value="Hidrata&#xe7;&#xe3;o de Queratina"/>
+                  <Data value="Initialiste K&#xe9;rastase"/>
+                  <Data value="Shampoo (Lavagem)"/>
+                  <Data value="Mechas"/>
+                  <Data value="Limpeza de Pele"/>
+                  <Data value="Tintura Inoa"/>
+                  <Data value="Penteado Noiva"/>
+                  <Data value="Penetrait"/>
+                </Column>
+                <Column editable="true" title="Valores" type="java.lang.Object">
+                  <Data value="R$ 18,00"/>
+                  <Data value="R$ 25,00"/>
+                  <Data value="R$ 15,00"/>
+                  <Data value="R$ 22,00"/>
+                  <Data value="R$ 60,00"/>
+                  <Data value="R$ 70,00"/>
+                  <Data value="R$ 20,00"/>
+                  <Data value="R$ 120,00"/>
+                  <Data value="R$ 180,00"/>
+                  <Data value="R$ 120,00"/>
+                  <Data value="R$ 100,00"/>
+                  <Data value="R$ 160,00"/>
+                  <Data value="R$ 150,00"/>
+                  <Data value="R$ 70,00"/>
+                  <Data value="R$ 120,00"/>
+                  <Data value="R$ 400,00"/>
+                  <Data value="R$ 180,00"/>
+                  <Data value="R$ 160,00"/>
+                  <Data value="R$ 160,00"/>
+                  <Data value="R$ 25,00"/>
+                  <Data value="R$ 50,00"/>
+                  <Data value="R$ 60,00"/>
+                  <Data value="R$ 170,00"/>
+                  <Data value="R$ 100,00"/>
+                  <Data value="R$ 90,00"/>
+                  <Data value="R$ 100,00"/>
+                  <Data value="R$ 140,00"/>
+                  <Data value="R$ 220,00"/>
+                  <Data value="R$ 20,00"/>
+                  <Data value="R$ 150,00"/>
+                  <Data value="R$ 70,00"/>
+                  <Data value="R$ 130,00"/>
+                  <Data value="R$ 200,00"/>
+                  <Data value="R$ 260,00"/>
+                </Column>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="IMProcedimentos">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/View/imagens/Agenda-PainelFundo.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="-40" y="0" width="650" height="410"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="IMFundoProcedimentos">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/View/imagens/telalogin.jpg"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
